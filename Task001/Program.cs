@@ -7,12 +7,12 @@
 
 int[] generateRandomArray(int length, int start, int finish)
 {
-    int[] Array = new int[length];
+    int[] array = new int[length];
     for (int i = 0; i < length; i++)
     {
-        Array[i] = new Random().Next(start, finish);
+        array[i] = new Random().Next(start, finish);
     }
-    return Array;
+    return array;
 }
 int getTheNumberOfEvenNumbersInArray(int[] array)
 {
